@@ -1,7 +1,6 @@
-Flask
-openai
+streamlit
 langchain
+openai
 faiss-cpu
 pypdf
-python-dotenv
-gunicorn
+tiktoken
