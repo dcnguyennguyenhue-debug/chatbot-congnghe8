@@ -1,10 +1,11 @@
 import streamlit as st
-from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import FAISS
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.chat_models import ChatOpenAI
 import os
+
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_text_splitters import CharacterTextSplitter
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
 
 st.title("Chatbot môn Công Nghệ 8")
 
